@@ -1448,13 +1448,6 @@ const secretAchievementList = {
 			if (this.clicks==42) {setTimeout(()=>{addSecretAchievement(31)},2000)}
 			else {setTimeout(function(){secretAchievementList[31].clicks=0},30000)}
 		}
-	},
-	32:{
-		name:"You have 1 ^300, 0 ^299, 0 ^298, 0 ^297 and 0 ^296",
-		description:"Have a Zip Point multiplier of "+BEformat("e300")+"×",
-		check:function(){return g.zipPointMulti==1e300},
-		flavor:"Stupid xhwzwka changed it to \"You have 1e300 exponents\". How boring...",
-		rarity:7
 	}
 }
 const achievementEvents = {
